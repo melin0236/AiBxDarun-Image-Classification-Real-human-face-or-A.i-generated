@@ -12,6 +12,7 @@ The dataset are from 'ArtiFact: Real and Fake Image Dataset'.
 The folder in this Dataset that had been used are:
 For the real images (30k images in total)
 1. CelebAHQ
+
 For the fake images (29,995 images in total)
 1. StarGAN
 2. SFHQ
