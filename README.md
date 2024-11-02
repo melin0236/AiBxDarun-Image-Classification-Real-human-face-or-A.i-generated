@@ -6,8 +6,8 @@ This model can predict between real and fake (Ai-generated) human face images wi
 
 # Dataset used to train this model
 The dataset are from 'ArtiFact: Real and Fake Image Dataset'.
-Kaggle : https://www.kaggle.com/datasets/awsaf49/artifact-dataset
-Github : https://github.com/awsaf49/artifact?tab=readme-ov-file
+- Kaggle : https://www.kaggle.com/datasets/awsaf49/artifact-dataset
+- Github : https://github.com/awsaf49/artifact?tab=readme-ov-file
 
 The folder in this Dataset that had been used are:
 For the real images (30k images in total)
@@ -24,5 +24,4 @@ Then separate them into training dataset with 60% of total images, validation da
 - Accuracy metrics for checking the performance of the model with 4 epoch of training.
 
 # Blog
-For further details about this model (written in Thai)
-- 
+- For further details about this model (written in Thai) : 
