@@ -1,8 +1,8 @@
-# AiBxDarun-Image-Classification-Real-human-face-or-A.i-generated
+# AiBxDarun Image Classification Real human face or A.i-generated
 A classification model for predicting if the image is a real human face or Ai-generated human face.
 
 # Feature of This Model
-This model can predict between real and fake (Ai-generated) human face images with performance more than 95% accuracy.
+This model can predict between real and fake (Ai-generated) human face images with performance more than 99% accuracy.
 
 # Dataset used to train this model
 The dataset are from 'ArtiFact: Real and Fake Image Dataset'.
@@ -21,8 +21,11 @@ For the fake images (29,995 images in total)
 Then separate them into training dataset with 60% of total images, validation dataset with 20% of total images, and testing dataset with 20% of total images.
 
 # About the Model
+- Resnet34 model
 - FastAI libary for training this model.
-- Accuracy metrics for checking the performance of the model with 4 epoch of training.
+- Accuracy metrics for checking the performance of the model with 3 epoch of training.
 
-# Blog
-- For further details about this model (written in Thai) : 
+# Links
+- For further details about this model (written in Thai) :
+- For using the model (on streamlit) :
+- Ai-builder showcase (written in Thai) :
