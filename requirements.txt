@@ -1,0 +1,8 @@
+fastai
+numpy
+pandas
+Pillow
+streamlit
+torch
+torchvision
+tqdm
