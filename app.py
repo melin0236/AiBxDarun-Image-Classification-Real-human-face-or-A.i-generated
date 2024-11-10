@@ -80,5 +80,5 @@ st.markdown("AI builder for this good opportunity")
 
 st.subheader("🪄About me :")
 st.markdown("Hello! I'm a grade 10 student in Thailand who is learning about computer science and things about coding.")
-st.markdown("If you found a mistake in this model or the app, please feel free to feedback the mistake in sidebar. Or if you have any suggestion, you can also sent them in my email. Thank you!")
+st.markdown("If you found a mistake in this model or the app, please feel free to feedback the mistake in sidebar. Or if you have any suggestion, you can also send them in my email. Thank you!")
 st.title("Thank you so much!💖")
