@@ -27,5 +27,5 @@ Then separate them into training dataset with 60% of total images, validation da
 
 # Links
 - For further details about this model (written in Thai) :
-- For using the model (on streamlit) :
+- For using the model (on streamlit) : https://aibxdarun-image-classification-real-human-face-or-ai-generated.streamlit.app/
 - Ai-builder showcase (written in Thai) :
