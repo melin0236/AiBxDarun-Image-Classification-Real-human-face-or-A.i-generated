@@ -40,8 +40,9 @@ st.markdown("-----------------")
 
 if file is None:
     st.markdown('\n')
-    st.title("Example:") #display sample image
+    st.title("Example:")
     st.image('img000032.jpg')
+    img = 'img000032.jpg'
 
 else:
     img = PILImage.create(file)
@@ -55,6 +56,8 @@ st.sidebar.markdown("-----------------")
 st.sidebar.markdown("**Blog (written in Thai) :**")
 st.sidebar.markdown("((Blog))")
 st.sidebar.markdown("-----------------")
+st.sidebar.markdown("**Sending Feedback :**")
+st.sidebar.markdown("Gmail : bunpan.kaopun@gmail.com")
 
 c_type = ['real', 'fake']
 im_predicted = model.predict(img)
@@ -68,6 +71,14 @@ if c_name in c_type:
      st.success(f"💡This image is **{c_name}**  image with the probability of **{m_prob*100:.02f}**%💡")
 
 else:
-     st.error(f"Sorry, please upload another image") #result display
+     st.error(f"💀Sorry, please upload another image💀")
 st.markdown(' ')
 st.markdown('________________________________________________')
+
+st.subheader("🙇‍♀️Special Thanks :")
+st.markdown("AI builder for this good opportunity")
+
+st.subheader("🪄About me :")
+st.markdown("Hello! I'm a grade 10 student in Thailand who is learning about computer science and things about coding.")
+st.markdown("If you found a mistake in this model or the app, please feel free to feedback the mistake in sidebar. Or if you have any suggestion, you can also sent them in my email. Thank you!")
+st.title("Thank you so much!💖")
