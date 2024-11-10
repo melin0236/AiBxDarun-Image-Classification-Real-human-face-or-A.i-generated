@@ -43,6 +43,7 @@ if file is None:
     st.title("Example:")
     st.image('img000032.jpg')
     img = 'img000032.jpg'
+    st.subheader("✒️Result :")
 
 else:
     img = PILImage.create(file)
