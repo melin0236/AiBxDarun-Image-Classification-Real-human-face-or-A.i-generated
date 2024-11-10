@@ -56,7 +56,7 @@ st.sidebar.markdown("**Blog (written in Thai) :**")
 st.sidebar.markdown("((Blog))")
 st.sidebar.markdown("-----------------")
 
-c_type = ['Real Image', 'Fake Image']
+c_type = ['real', 'fake']
 im_predicted = model.predict(img)
 c_name = im_predicted[0]
 ts_prob = im_predicted[2]
@@ -65,7 +65,7 @@ m_prob = prob[0][0]
 
 if c_name in c_type:
      st.spinner(text="⏰In progress...")
-     st.success(f"💡This image is **{c_name}**  with the probability of **{m_prob*100:.02f}**%💡")
+     st.success(f"💡This image is **{c_name}**  image with the probability of **{m_prob*100:.02f}**%💡")
 
 else:
      st.error(f"Sorry, please upload another image") #result display
