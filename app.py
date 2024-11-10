@@ -48,6 +48,7 @@ else:
     img = PILImage.create(file)
     st.title("📌📂Here is the image you've selected:")
     st.image(img)
+    st.subheader("✒️Result :")
 
 st.sidebar.title("**More Details**")
 st.sidebar.markdown("**Github :**")
