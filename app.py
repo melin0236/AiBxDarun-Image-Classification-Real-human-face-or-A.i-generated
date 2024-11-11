@@ -62,7 +62,7 @@ st.sidebar.markdown("-----------------")
 st.sidebar.markdown("**Sending Feedback :**")
 st.sidebar.markdown("Gmail : bunpan.kaopun@gmail.com")
 
-c_type = ['real', 'fake']
+c_type = ['fake', 'real']
 im_predicted = model.predict(img)
 c_name = im_predicted[0]
 ts_prob = im_predicted[2]
