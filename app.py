@@ -39,11 +39,17 @@ st.markdown("**Crop your image into the human face only🧒 -- No body🧍‍♂
 file = st.file_uploader("📥Upload your image:")
 st.markdown("-----------------")
 
+sample_path = ("./Sample Image)
+file_name = os.listdir(sample_path)
+sample_image = st.sidebar.selectbox(
+    'Sample :',
+    (file_name))
+
 if file is None:
+    img = PILImage.create(os.path.join(sample_path, sample_image))
     st.markdown('\n')
-    st.title("Example:")
-    st.image('img000032.jpg')
-    img = 'img000032.jpg'
+    st.title("Example :")
+    st.image(img)
     st.subheader("✒️Result :")
 
 else:
@@ -52,6 +58,7 @@ else:
     st.image(img)
     st.subheader("✒️Result :")
 
+st.sidebar.image('image dumb/JUSTAiB.jpg')
 st.sidebar.title("**More Details**")
 st.sidebar.markdown("**Github :**")
 st.sidebar.markdown("https://github.com/melin0236/AiBxDarun-Image-Classification-Real-human-face-or-A.i-generated/tree/main")
