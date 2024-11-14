@@ -39,7 +39,7 @@ st.markdown("**Crop your image into the human face only🧒 -- No body🧍‍♂
 file = st.file_uploader("📥Upload your image:")
 st.markdown("-----------------")
 
-sample_path = ("./Sample Image)
+sample_path = ("./Sample Image")
 file_name = os.listdir(sample_path)
 sample_image = st.sidebar.selectbox(
     'Sample :',
