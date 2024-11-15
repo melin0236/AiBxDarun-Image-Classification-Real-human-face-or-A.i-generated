@@ -26,5 +26,5 @@ Then separate them into training dataset with 60% of total images, validation da
 - Accuracy metrics for checking the performance of the model with 3 epoch of training.
 
 # Links
-- For further details about this model (written in Thai) :
+- For further details about this model (written in Thai) : https://medium.com/@bunpan.kaopun/image-classification-real-human-face-or-ai-generated-image-cf8db20b2b58
 - For using the model (on streamlit) : https://aibxdarun-image-classification-real-human-face-or-ai-generated.streamlit.app/
