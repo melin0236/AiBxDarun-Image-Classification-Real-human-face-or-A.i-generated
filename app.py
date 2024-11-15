@@ -38,7 +38,8 @@ st.markdown("-----------------")
 st.markdown("**Crop your image into the human face only🧒 -- No body🧍‍♂️**")
 file = st.file_uploader("📥Upload your image:")
 
-st.markdown("/n✅If you don't have an image, here you go :")
+st.markdown("")
+st.markdown("✅If you don't have an image, here you go :")
 sample_path = ("./Sample Image")
 file_name = os.listdir(sample_path)
 sample_image = st.selectbox(
