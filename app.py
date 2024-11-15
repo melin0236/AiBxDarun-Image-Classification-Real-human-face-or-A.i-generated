@@ -58,7 +58,7 @@ else:
     st.image(img)
     st.subheader("✒️Result :")
 
-st.sidebar.image('image dumb/JUSTAiB.jpg')
+st.sidebar.image('image dumb/JUSTAiB.png')
 st.sidebar.title("**More Details**")
 st.sidebar.markdown("**Github :**")
 st.sidebar.markdown("https://github.com/melin0236/AiBxDarun-Image-Classification-Real-human-face-or-A.i-generated/tree/main")
