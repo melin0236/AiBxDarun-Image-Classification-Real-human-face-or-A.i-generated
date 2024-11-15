@@ -1,8 +1,8 @@
-# AiBxDarun Image Classification : Real human face or A.i-generated
-A classification model for predicting if the image is a real human face or Ai-generated human face.
+# AiBxDarun Image Classification : Real human face or AI-generated
+A classification model for predicting if the image is a real human face or AI-generated human face.
 
 # Feature of This Model
-This model can predict between real and fake (Ai-generated) human face images with performance more than 99% accuracy.
+This model can predict between real and fake (AI-generated) human face images with performance more than 99% accuracy.
 
 # Dataset used to train this model
 The dataset are from 'ArtiFact: Real and Fake Image Dataset'.
