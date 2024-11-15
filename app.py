@@ -37,13 +37,14 @@ st.markdown('⚠️Please notice that this model was made from specific image ge
 st.markdown("-----------------")
 st.markdown("**Crop your image into the human face only🧒 -- No body🧍‍♂️**")
 file = st.file_uploader("📥Upload your image:")
-st.markdown("-----------------")
 
+st.markdown("✅If you don't have an image, here you go :")
 sample_path = ("./Sample Image")
 file_name = os.listdir(sample_path)
 sample_image = st.selectbox(
     'Sample :',
     (file_name))
+st.markdown("-----------------")
 
 if file is None:
     img = PILImage.create(os.path.join(sample_path, sample_image))
@@ -58,7 +59,7 @@ else:
     st.image(img)
     st.subheader("✒️Result :")
 
-st.sidebar.title("Big thanks for AI builder!")
+st.sidebar.title("🙏Big thanks for AI builder!")
 st.sidebar.image('image dumb/JUSTAiB.png')
 st.sidebar.title("**More Details**")
 st.sidebar.markdown("**Github :**")
