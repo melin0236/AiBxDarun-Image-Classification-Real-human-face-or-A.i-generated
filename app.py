@@ -41,7 +41,7 @@ st.markdown("-----------------")
 
 sample_path = ("./Sample Image")
 file_name = os.listdir(sample_path)
-sample_image = st.sidebar.selectbox(
+sample_image = st.selectbox(
     'Sample :',
     (file_name))
 
@@ -58,6 +58,7 @@ else:
     st.image(img)
     st.subheader("✒️Result :")
 
+st.sidebar.title("Big thanks for AI builder!")
 st.sidebar.image('image dumb/JUSTAiB.png')
 st.sidebar.title("**More Details**")
 st.sidebar.markdown("**Github :**")
